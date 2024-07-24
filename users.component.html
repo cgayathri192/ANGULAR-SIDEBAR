@@ -1,0 +1,9 @@
+<p>users works!</p>
+<div class="row">
+    <div class="col-3 mt-4" *ngFor="let user of users" [routerLink]="'/users/'+user['id']">
+        <div class="card p-3">
+            {{user['name']}}
+        </div>
+    </div>
+        
+        </div>
